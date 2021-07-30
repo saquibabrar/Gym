@@ -1,0 +1,118 @@
+.footer{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 300px;
+    padding: 10px;
+ }
+ .left{
+    position: absolute;
+    left: 34px;
+    top: 18px;
+    display: inline-block;
+    }
+    .left img{
+    width: 136px; 
+    }
+    .left div{
+    color: white;
+    top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    }
+    .right{
+    color: antiquewhite;
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    display: inline-block;
+    font-size: medium;
+    }
+    .mid{
+    width:  40%;
+    display: block;
+    margin: 12px auto;
+    border:0px;
+    }
+    .navbar{
+    display: inline;
+    }
+    .navbar li{
+    display: inline;
+    font-size: 25px;
+    
+    }
+    .navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 30px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+    color: rgb(75, 131, 112);
+    }
+    .btn{
+    margin: 0px 6px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    font-size: 20px;
+    cursor: pointer;
+    }
+    .btn :hover{
+        color:gray ;
+    }
+    .btn a{
+       color: white;
+    }
+.ab h1{
+    text-align: center;
+    font-size: 50px;
+    width: 70%;
+
+    margin-left: 250px;
+    margin-top: 190px;
+    color: green;
+}
+.ab {
+    font-size: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    color: aliceblue;
+}
+
+.ab1 h5{
+    text-align: center;
+    font-size: 50px;
+    width: 70%;
+
+    margin-left: 250px;
+    margin-top: 300px;
+    color: green;
+}
+
+.ab1{
+    
+    font-size: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    color: aliceblue;
+}
+.im img{
+    width: 65%;
+    padding-left: 400px;
+
+}
+.im h10{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+.im h10 p{
+    padding: 80px 80px;
+    margin-top: 100px;
+}

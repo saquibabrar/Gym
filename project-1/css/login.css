@@ -1,0 +1,112 @@
+
+.left{
+    position: absolute;
+    left: 34px;
+    top: 18px;
+    display: inline-block;
+    }
+    .left img{
+    width: 136px; 
+    }
+    .left div{
+    color: white;
+    top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    }
+    .right{
+    color: antiquewhite;
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    display: inline-block;
+    font-size: medium;
+    }
+    .mid{
+    width:  40%;
+    display: block;
+    margin: 12px auto;
+    border:0px;
+    }
+    .navbar{
+    display: inline;
+    }
+    .navbar li{
+    display: inline;
+    font-size: 25px;
+    
+    }
+    .navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 30px;
+    }
+    .navbar li a:hover,.navbar li a.active{
+    color: rgb(75, 131, 112);
+    }
+    .btn{
+    margin: 0px 6px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border-radius: 10px;
+    border: 2px solid grey;
+    font-size: 20px;
+    cursor: pointer;
+    }
+    .btn :hover{
+        color:gray ;
+    }
+    .btn a{
+       color: white;
+    }
+    .container{
+        
+        border: 2px solid grey;
+        font-size: 18px;
+        width: 30%;
+        padding: 30px 30px ;
+        margin-left: 1500px;
+        margin-top: 350px;
+    }
+    .container h1{
+        color: white;
+        text-align: center;
+    }
+    .container button{
+       
+       width: 28%;
+       padding: 13px;
+       margin-left: 250px;
+       margin-top: 40px ;
+       margin-bottom: 20px;
+       display: block;
+       
+    
+    }
+    .form-group input{
+        font-family: 'Baloo Bhai 2', cursive;
+        text-align: center;
+        display: block;
+        margin: 12px auto;
+        width: 528px;
+        padding: 9px;
+        border: 2px solid black;
+        font-size: 30px;
+        border-radius: 18px;
+     }
+
+.h{
+    color:white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.footer{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 200px;
+    padding: 10px;
+ }

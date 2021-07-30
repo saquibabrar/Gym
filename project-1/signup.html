@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+ <style>
+     body{
+         background: url("img/img9.jpg");
+         margin: 0px;
+         border-image: auto;
+         
+     }
+     
+ </style>
+<body>
+
+    <header class="header">
+        
+        <div class="left">
+         <img src="img/logo.jpeg" alt="logo">
+         <div>Fit&Fine</div>
+        </div>
+   
+        <div class="mid">
+           
+         <ul class="navbar">
+           <li><a href="index.html">Home</a></li>
+           <li><a href="trainer.html">Trainers</a></li>
+           <li><a href="aboutus.html">About Us</a></li>
+           <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+       </div>
+        </div>
+        <div class="container">
+            <h1>Sign Up</h1>
+            <form mehtod = "post" action="signup.php">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Enter Your Name">
+            </div>
+            
+            <div class="form-group">
+                <input type="text" name ="age" placeholder="Enter Your Age">
+            </div>
+            
+            <div class="form-group">
+                <input type="text" name = "bloodgroup" placeholder="Enter Your Blood Group">
+            </div>
+            
+            <div class="form-group">
+                <input type="text" name = "contact" placeholder="Enter Your Contact no">
+            </div>
+            
+            <div class="trainee">
+                <select name = "trainee">
+                    <option selected hidden value="" style="font-size:20px">Choose your Trainee</option>
+                    <option value="Tasha" style="font-size:20px">Tasha</option>
+                    <option value="Rocky" style="font-size:20px">Rocky</option>
+                </select> 
+                <style type="text/css">     
+                    select {
+                        width:500px;
+                        height: 50px;
+                    }
+                </style>
+            </div>
+            <div class="trainee">
+                <select name = "timeslot">
+                    <option selected hidden value="" style="font-size:20px">Choose your TimeSlot</option>
+                    <option value="Morning" style="font-size:20px">09:00 AM - 10:30 AM</option>
+                    <option value="Afternoon" style="font-size:20px">03:00 PM - 04:30 PM</option>
+                    <option value="Evening" style="font-size:20px">07:00 PM - 08:30 PM</option>
+                </select> 
+                <style type="text/css">     
+                    select {
+                        width:500px;
+                        height: 50px;
+                    }
+                </style>
+            </div>
+            
+            <div class="form-group">
+                <input type="text" name = "address" placeholder="Enter Your Address">
+            </div>
+            
+            <div class="form-group">
+                <input type="text" name = "email" placeholder="Enter Your Email id">
+            </div>
+            <div class="form-group">
+                <input type="password" name = "password" placeholder="Create your password">
+            </div>
+            <input type="submit" class="btn btn-primary" >
+            </form>
+            <div class="h">
+                 Have an account?<a href="login.html">Login here</a>
+            </div>
+        </div>
+        <div class="right">
+            <button name = "Login" class="btn"><a href="login.html">Log In</a></button>
+                </div>
+
+       </header>    
+       <div class="footer">
+        <div>Copyright © Fit&Fine. All Rights Reserved|Contact Us: +917295022156</div>
+    </div>
+
+</body>
+</html>
